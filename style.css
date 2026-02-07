@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 300px){
+    .box{
+        display: none;
+    }
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: linear-gradient(35deg,rgb(50, 49, 49),rgb(0, 0, 0));
+}
+
+#title{
+    width: 100%;
+    font-size: 30px;
+    padding: 10px 0px;
+    text-shadow: 2px 2px 1px black,4px 4px 2px black, 6px 6px 4px black;
+}
+
+
+#allscr .a{
+    border: 2px solid white;
+    display: inline-block;
+    margin: 0px 30px;
+    margin-top: 40px;
+    width: 120px;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#Gamebox div{
+    display: inline-block;
+    font-size: 40px;
+    border: 3px solid rgb(37, 37, 37);
+    padding: 10px;
+    border-radius: 100%;
+    margin: 100px 20px;
+    box-shadow: 0px 0px 6px rgb(37, 37, 37);
+}
+
+#Cbox{
+    width: 100%;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+}
+
+#Cbox div{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    align-content: center;
+    border: 2px solid white;
+    margin: 0px 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Cbox div:hover{
+    transform: translate(0 , -10px);
+    box-shadow: 0px 3px 3px rgb(255, 255, 255,0.3);
+    font-size: 40px;
+}
