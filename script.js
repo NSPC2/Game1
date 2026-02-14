@@ -84,6 +84,9 @@ S.addEventListener("click", () => {
 document.getElementById("restart").addEventListener("click", () => {
     Hbox.style.boxShadow = "0px 0px 6px rgb(37, 37, 37)";
     Abox.style.boxShadow = "0px 0px 6px rgb(37, 37, 37)";
+    Human = 0;
+    Ai = 0;
     Ascr.innerText = 0;
     Hscr.innerText = 0;
+
 })
